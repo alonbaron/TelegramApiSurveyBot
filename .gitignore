@@ -34,5 +34,11 @@ build/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### Local config and secrets ###
+.env
+.env.*
+!*.example
+
+### OS files ###
 .DS_Store
+Thumbs.db
